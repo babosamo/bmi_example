@@ -1,1 +1,2 @@
-include ':app'
+include ':app', ':base_library'
+project(':base_library').projectDir = new File('base/base/base_library')
