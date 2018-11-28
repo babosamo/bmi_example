@@ -1,4 +1,4 @@
-package kim.noah.bmi
+package noah.kim.bmi
 
 import org.junit.Test
 
