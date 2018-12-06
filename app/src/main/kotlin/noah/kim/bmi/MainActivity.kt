@@ -11,8 +11,5 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         appContext = applicationContext
-        clickButton.setOnClickListener{
-            textView.text = "버튼을 눌렀습니다"
-        }
     }
 }
