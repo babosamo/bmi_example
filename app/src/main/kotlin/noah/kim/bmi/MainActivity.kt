@@ -14,6 +14,7 @@ class MainActivity : AppCompatActivity() {
         appContext = applicationContext
 
         resultButton.setOnClickListener {
+            // 주석 추가
             val weight = weightEditText.text.toString().takeIf { it.isNotBlank() }?.toInt() ?: 0
             val height = heightEditText.text.toString().takeIf { it.isNotBlank() }?.toInt() ?: 0
 
